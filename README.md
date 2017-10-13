@@ -12,11 +12,11 @@ If you don't already have those, visit the downloads pages below and follow the 
 * [Virtualbox Downloads](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant Downloads](https://www.vagrantup.com/downloads.html)
 
-1. `mv vagrant/Vagrantfile.example vagrant/Vagrantfile`
-2. Set configs in `vagrant/config`
+1. `cp vagrant/Vagrantfile.example vagrant/Vagrantfile`
+2. Set configs in `vagrant/config/...`
 3. `vagrant up`
-4. Add '/etc/hosts` in your local machine `192.168.100.102 test.app`
-5. Open in Browser link `http://test.app/`
+4. Add `/etc/hosts` in your local machine `192.168.100.102 test.app`
+5. Open in Browser [http://test.app/](http://test.app/)
 
 ## Resources
 
